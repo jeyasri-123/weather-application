@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.nivek.kevoweather", appContext.getPackageName());
+        assertEquals("com.nivek.todayweather", appContext.getPackageName());
     }
 }
